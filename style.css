@@ -1,0 +1,38 @@
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size:35px;
+  text-align: center;
+  border-bottom: black 3px solid;
+  margin:0;
+  padding:10px;
+}
+ol{
+  border-right: black 3px solid;
+  width:150px;
+  margin:0;
+  padding-top:33px;
+}
+body{
+  margin:0;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 200px 1fr;
+}
+#article{
+  padding-left:15px;
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right: none;
+  }
+  h1 {
+    border-bottom: none;
+  }
+}   
